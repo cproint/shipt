@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shipt WebSite - Test Suite]">
+  <test thread-count="5" name="Forgot Password Feature(failed)">
+    <classes>
+      <class name="com.shipt.qa.automation.tests.ForgotPasswordPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyResetPasswordButtonClickWithValidEmail"/>
+        </methods>
+      </class> <!-- com.shipt.qa.automation.tests.ForgotPasswordPageTest -->
+    </classes>
+  </test> <!-- Forgot Password Feature(failed) -->
+</suite> <!-- Failed suite [Shipt WebSite - Test Suite] -->

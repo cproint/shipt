@@ -1,0 +1,3 @@
+As of 05/01/2018:
+	Mac Version of Chrome Driver: 2.37 
+	Mac Version of Firefox Driver: 0.20.0  (https://github.com/mozilla/geckodriver/releases)

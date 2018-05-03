@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79250" started-at="2018-05-03T20:22:50Z" finished-at="2018-05-03T20:24:09Z">
+    <groups>
+      <group name="sanity">
+        <method signature="ForgotPasswordPageTest.verifyResetButtonTest()[pri:2, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetButtonTest" class="com.shipt.qa.automation.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.verifyResetPagePasswordTextBoxTest()[pri:1, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPagePasswordTextBoxTest" class="com.shipt.qa.automation.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.verifyResetPasswordButtonClickWithInvalidEmail()[pri:4, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPasswordButtonClickWithInvalidEmail" class="com.shipt.qa.automation.tests.ForgotPasswordPageTest"/>
+        <method signature="ForgotPasswordPageTest.verifyResetPasswordButtonClickWithValidEmail()[pri:5, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPasswordButtonClickWithValidEmail" class="com.shipt.qa.automation.tests.ForgotPasswordPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="79250" started-at="2018-05-03T20:22:50Z" finished-at="2018-05-03T20:24:09Z">
+      <class name="com.shipt.qa.automation.tests.ForgotPasswordPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="setup" is-config="true" duration-ms="17669" started-at="2018-05-03T20:22:50Z" finished-at="2018-05-03T20:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResetPagePasswordTextBoxTest()[pri:1, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPagePasswordTextBoxTest" duration-ms="734" started-at="2018-05-03T20:23:07Z" finished-at="2018-05-03T20:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetPagePasswordTextBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-05-03T20:23:08Z" finished-at="2018-05-03T20:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="setup" is-config="true" duration-ms="14058" started-at="2018-05-03T20:23:08Z" finished-at="2018-05-03T20:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResetButtonTest()[pri:2, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetButtonTest" duration-ms="714" started-at="2018-05-03T20:23:22Z" finished-at="2018-05-03T20:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButtonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-05-03T20:23:23Z" finished-at="2018-05-03T20:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="setup" is-config="true" duration-ms="13802" started-at="2018-05-03T20:23:23Z" finished-at="2018-05-03T20:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResetPasswordButtonClickWithInvalidEmail()[pri:4, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPasswordButtonClickWithInvalidEmail" duration-ms="4291" started-at="2018-05-03T20:23:37Z" finished-at="2018-05-03T20:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetPasswordButtonClickWithInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="tearDown" is-config="true" duration-ms="73" started-at="2018-05-03T20:23:41Z" finished-at="2018-05-03T20:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="setup" is-config="true" duration-ms="25052" started-at="2018-05-03T20:23:41Z" finished-at="2018-05-03T20:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyResetPasswordButtonClickWithValidEmail()[pri:5, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="verifyResetPasswordButtonClickWithValidEmail" duration-ms="2605" started-at="2018-05-03T20:24:06Z" finished-at="2018-05-03T20:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetPasswordButtonClickWithValidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.shipt.qa.automation.tests.ForgotPasswordPageTest@22a67b4]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-05-03T20:24:09Z" finished-at="2018-05-03T20:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shipt.qa.automation.tests.ForgotPasswordPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
