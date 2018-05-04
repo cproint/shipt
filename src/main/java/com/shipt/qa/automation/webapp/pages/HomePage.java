@@ -3,6 +3,7 @@ package com.shipt.qa.automation.webapp.pages;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -20,8 +21,10 @@ import com.shipt.qa.automation.util.TestUtil;
  * @author mtulugu
  *
  */
-public class HomePage extends TestBase{
-	WebElement element;
+public class HomePage extends TestBase {
+	
+	WebDriverWait wait = new WebDriverWait(driver, 10);
+
 	@FindBy(css = "button.pop-close")
 	@CacheLookup  //homePageImage will be stored in cache memory for the subsequent calls rather than using Browser/DOM/css etc. More useful when we use xpath etc. Note that if the element is changed dynamically then it gices StaleElementException
 	private WebElement popUpWindowClose;
@@ -57,13 +60,13 @@ public class HomePage extends TestBase{
 	public void closePopUpWindow() throws InterruptedException{
 		TestUtil.explicitWaitForElement(popUpWindowClose);
 		popUpWindowClose.click();
-		Thread.sleep(1000);
+		Boolean isPopUpClosed = wait.until(ExpectedConditions.invisibilityOf(popUpWindowClose));
 	}
 	
 	public LoginPage clickLoginButton() throws InterruptedException{
-		//TestUtil.explicitWaitForElement(loginButton);		
-		loginButton.click();
-		return new LoginPage();
+		 WebElement loginBtn = wait.until(ExpectedConditions.visibilityOf(loginButton));
+		 loginBtn.click();
+		 return new LoginPage();
 		
 	}
 	
