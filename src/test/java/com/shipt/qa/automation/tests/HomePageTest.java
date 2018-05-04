@@ -48,6 +48,7 @@ public class HomePageTest extends TestBase {
 	
 	@Test(priority = 3, groups = {"sanity"}, enabled = true)
 	public void clickLoginButton() throws InterruptedException{
+		
 		homePage.clickLoginButton();
 	}
 
